@@ -1,3 +1,5 @@
+<%@page import="com.mysql.jdbc.Connection"%>
+<%@page import="com.helper.ConnectionProvider"%>
 <html>
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -27,5 +29,9 @@ $(document).ready(function(){
 
 
 <h2>Hello World!</h2>
+
+<% Connection con=ConnectionProvider.getConnection(); %>
+
+<h1><%=con %></h1>
 </body>
 </html>
