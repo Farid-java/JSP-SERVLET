@@ -1,3 +1,5 @@
-body {
-	color: red;
+ 
+.primary-background{
+	/* use material ui for color code */
+	background: #2196f3 !important;
 }
