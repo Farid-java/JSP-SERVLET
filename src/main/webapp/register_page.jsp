@@ -35,7 +35,7 @@
                             Register here
                         </div>
                         <div class="card-body">
-                            <form id="reg-form" action="RegisterServlet" method="POST">
+                            <form id="reg-form" action="RegisteredServlet" method="POST">
 
                                 <div class="form-group">
                                     <label for="user_name">User Name</label>
