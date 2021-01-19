@@ -108,22 +108,24 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="js/myjs.js" type="text/javascript"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
-       <!--  <script>
+        <script>
             $(document).ready(function () {
                 console.log("loaded........")
-
+                
+                
+                //bind all data of form into single object as " let form = new FormData(this);
+                 "
                 $('#reg-form').on('submit', function (event) {
                     event.preventDefault();
-
-
 
                     let form = new FormData(this);
 
                     $("#sumbimt-btn").hide();
                     $("#loader").show();
-                    //send register servlet:
+                    
+                    //using ajax send data to  register servlet without refereshing:
                     $.ajax({
-                        url: "RegisterServlet",
+                        url: "RegisteredServlet",
                         type: 'POST',
                         data: form,
                         success: function (data, textStatus, jqXHR) {
@@ -166,7 +168,7 @@
 
 
 
-        </script> -->
+        </script>
 
 
     </body>
