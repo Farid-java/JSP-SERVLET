@@ -14,4 +14,18 @@
   	<servlet-name>RegisteredServlet</servlet-name>
   	<url-pattern>/RegisteredServlet</url-pattern>
   </servlet-mapping>
+  
+  
+   <servlet>
+  	<servlet-name>LoginServlet1</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet1</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  
 </web-app>
