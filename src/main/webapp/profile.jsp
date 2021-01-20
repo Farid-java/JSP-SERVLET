@@ -1,5 +1,7 @@
 
 <%-- <%@page import="com.entities.Category"%> --%>
+<%@page import="com.entities.Category"%>
+<%@page import="com.dao.PostDao"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="com.helper.ConnectionProvider"%>
 <%-- <%@page import="com.dao.PostDao"%> --%>
@@ -83,9 +85,9 @@ body {
 						class="	fa fa-address-card-o"></span> Contact
 				</a></li>
 
-				<!--  <li class="nav-item">
+				 <li class="nav-item">
                         <a class="nav-link" href="#" data-toggle="modal" data-target="#add-post-modal" > <span class="	fa fa-asterisk"></span> Do Post</a>
-                    </li> -->
+                    </li>
 
 
 
@@ -303,7 +305,7 @@ body {
 
 			<!--end of profile modal-->
 
-			<%--  <!--add post modal-->
+			 <!--add post modal-->
 
 
 
@@ -366,7 +368,7 @@ body {
                 </div>
             </div>
         </div>
- --%>
+
 
 			<!--END add post modal-->
 
