@@ -75,11 +75,11 @@
                         <a class="nav-link" href="#"> <span class="	fa fa-address-card-o"></span> Contact</a>
                     </li>
 
-                  <!--   <li class="nav-item">
+                   <!--  <li class="nav-item">
                         <a class="nav-link" href="#" data-toggle="modal" data-target="#add-post-modal" > <span class="	fa fa-asterisk"></span> Do Post</a>
-                    </li>
+                    </li> -->
 
- -->
+
 
                 </ul>
 
@@ -116,9 +116,9 @@
         %>
 
 
-      <%--   <!--main body of the page-->
+        <!--main body of the page-->
 
-        <main>
+       <%--  <main>
             <div class="container">
                 <div class="row mt-4">
                     <!--first col-->
@@ -163,7 +163,7 @@
             </div>
 
         </main>
-
+ --%>
 
         <!--end main body of the page-->
 
@@ -186,7 +186,7 @@
                     </div>
                     <div class="modal-body">
                         <div class="container text-center">
-                            <img src="pics/<%= user.getProfile()%>" class="img-fluid" style="border-radius:50%;max-width: 150px;;" >
+                            <img src="image/<%= user.getProfile()%>" class="img-fluid" style="border-radius:50%;max-width: 150px;;" >
                             <br>
                             <h5 class="modal-title mt-3" id="exampleModalLabel"> <%= user.getName()%> </h5>
                             <!--//details-->
@@ -224,7 +224,7 @@
                                 </table>
                             </div>
 
-                            <!--profile edit-->
+                          <%--   <!--profile edit-->
 
                             <div id="profile-edit" style="display: none;">
                                 <h3 class="mt-2">Please Edit Carefully</h3>
@@ -284,11 +284,11 @@
                 </div>
             </div>
         </div>
-
+ --%>
 
         <!--end of profile modal-->
 
-        <!--add post modal-->
+       <%--  <!--add post modal-->
 
 
 
@@ -351,7 +351,7 @@
                 </div>
             </div>
         </div>
-
+ --%>
 
         <!--END add post modal-->
 
@@ -361,8 +361,8 @@
 
 
 
-        <!--javascripts-->
-        <script
+       <!--javascripts-->
+     <script
             src="https://code.jquery.com/jquery-3.4.1.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
@@ -371,7 +371,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
         <script src="js/myjs.js" type="text/javascript"></script>
 
-        <script>
+      <!--      <script>
                                 $(document).ready(function () {
                                     let editStatus = false;
 
@@ -400,7 +400,7 @@
                                 });
 
         </script>
-        <!--now add post js-->
+        now add post js
         <script>
             $(document).ready(function (e) {
                 //
@@ -437,7 +437,7 @@
             })
         </script>
 
-        <!--loading post using ajax-->
+        loading post using ajax
         <script>
 
             function getPosts(catId, temp) {
@@ -469,7 +469,7 @@
 
 
             })
-        </script>
- --%>
+        </script>  -->
+
     </body>
 </html>
