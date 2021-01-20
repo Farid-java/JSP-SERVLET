@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import com.dao.User_Dao;
+import com.entities.Message;
 import com.entities.User;
 import com.helper.ConnectionProvider;
 
@@ -48,10 +49,10 @@ public class LoginServlet extends HttpServlet {
                 //login.................
 //                error///
 //                out.println("Invalid Details..try again");
-               // Message msg = new Message("Invalid Details ! try with another", "error", "alert-danger");
+                Message msg = new Message("Invalid Details ! try with another", "error", "alert-danger");
                 HttpSession s = request.getSession();
-                out.println("Wrong User");
-               // s.setAttribute("msg", msg);
+               
+               s.setAttribute("msg", msg);
 
                 response.sendRedirect("login_page.jsp");
             } else {

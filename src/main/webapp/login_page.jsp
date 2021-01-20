@@ -1,5 +1,6 @@
 
 <%-- <%@page import="com.tech.blog.entities.Message"%> --%>
+<%@page import="com.entities.Message"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -35,7 +36,7 @@
                                 <br>
                                 <p>Login here</p>
                             </div>
-<%-- 
+
                             <%
                                 Message m = (Message) session.getAttribute("msg");
                                 if (m != null) {
@@ -50,7 +51,7 @@
                                 }
 
                             %>
- --%>
+
 
 
                             <div class="card-body">
