@@ -1,4 +1,4 @@
-package com.servlet;
+	package com.servlet;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -96,7 +96,6 @@ public class RegisterServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-    	System.out.println("hwllooooooooooooooo");
         processRequest(request, response);
     }
 

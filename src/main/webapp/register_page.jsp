@@ -114,7 +114,7 @@
                 
                 
                 //bind all data of form into single object as " let form = new FormData(this);
-                 "
+                  
                 $('#reg-form').on('submit', function (event) {
                     event.preventDefault();
 
