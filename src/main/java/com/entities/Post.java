@@ -16,7 +16,13 @@ public class Post {
     public Post() {
     }
 
-    public Post(int pid, String pTitle, String pContent, String pCode, String pPic, Timestamp pDate, int catId, int userId) {
+    @Override
+	public String toString() {
+		return "Post [pid=" + pid + ", pTitle=" + pTitle + ", pContent=" + pContent + ", pCode=" + pCode + ", pPic="
+				+ pPic + ", pDate=" + pDate + ", catId=" + catId + ", userId=" + userId + "]";
+	}
+
+	public Post(int pid, String pTitle, String pContent, String pCode, String pPic, Timestamp pDate, int catId, int userId) {
         this.pid = pid;
         this.pTitle = pTitle;
         this.pContent = pContent;

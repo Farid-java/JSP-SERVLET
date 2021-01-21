@@ -156,7 +156,7 @@ body {
 
                     </div>
 
-     	<%--                <!--second col-->
+     	                <!--second col-->
                     <div class="col-md-8" >
                         <!--posts-->
                         <div class="container text-center" id="loader">
@@ -174,7 +174,7 @@ body {
             </div>
 
         </main>
- --%>
+ 
 
 	<!--end main body of the page-->
 
@@ -459,8 +459,8 @@ body {
                 })
             })
         </script>
-  <!-- 
-        loading post using ajax
+  
+  <!--       loading post using ajax -->
         <script>
 
             function getPosts(catId, temp) {
@@ -492,6 +492,6 @@ body {
 
 
             })
-        </script>  -->
+        </script>   
 </body>
 </html>
