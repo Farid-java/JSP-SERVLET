@@ -129,7 +129,7 @@ body {
 
 	<!--main body of the page-->
 
-	<%--  <main>
+ <main>
             <div class="container">
                 <div class="row mt-4">
                     <!--first col-->
@@ -141,7 +141,7 @@ body {
                             </a>
                             <!--categories-->
 
-                            <%                                PostDao d = new PostDao(ConnectionProvider.getConnection());
+                            <%  PostDao d = new PostDao(ConnectionProvider.getConnection());
                                 ArrayList<Category> list1 = d.getAllCategories();
                                 for (Category cc : list1) {
 
@@ -156,7 +156,7 @@ body {
 
                     </div>
 
-                    <!--second col-->
+     	<%--                <!--second col-->
                     <div class="col-md-8" >
                         <!--posts-->
                         <div class="container text-center" id="loader">
