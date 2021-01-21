@@ -42,7 +42,7 @@
 }
 
 body {
-	background: url(img/bg.jpeg);
+	background: url(image/bg.jpeg);
 	background-size: cover;
 	background-attachment: fixed;
 }
