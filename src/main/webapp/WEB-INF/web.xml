@@ -72,9 +72,7 @@
     </servlet-mapping>
     
     
-    
-    
-    
+     
     
     <session-config>
         <session-timeout>
