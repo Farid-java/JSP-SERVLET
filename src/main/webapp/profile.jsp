@@ -423,13 +423,13 @@ body {
                                 });
 
         </script>
-       <!--  now add post js
+    <!--   now add post js -->
         <script>
             $(document).ready(function (e) {
                 //
                 $("#add-post-form").on("submit", function (event) {
                     //this code gets called when form is submitted....
-                    event.preventDefault();
+                    event.preventDefault(); //this code is use to prevent syncronous behaviour of form on submitting and apply AJAX(Asyncronous JAVAScript and xml)
                     console.log("you have clicked on submit..")
                     let form = new FormData(this);
 
@@ -459,7 +459,7 @@ body {
                 })
             })
         </script>
-
+  <!-- 
         loading post using ajax
         <script>
 
