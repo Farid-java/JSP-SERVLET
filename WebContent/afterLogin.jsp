@@ -40,9 +40,9 @@
 
 
 <!-- USE OF PAGE_CONTEXT -->
-<% pageContext.setAttribute("pagecontext", v, pageContext.SESSION_SCOPE); %>
+<% pageContext.setAttribute("pagecontext", o, pageContext.SESSION_SCOPE); %>
  
- <h1>PageContext=<%=pageContext.getAttribute("pagecontext", pageContext.SESSION_SCOPE) %></h1>
+ <h1>PageContext=<%=pageContext.getAttribute("data", pageContext.SESSION_SCOPE) %></h1>
 
 <hr />
 

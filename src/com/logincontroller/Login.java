@@ -62,8 +62,8 @@ public class Login extends HttpServlet {
 			 //USE OF SERVLET_CONTEXT BY USING CONFIG
 			 context.setAttribute("config", login.getPassword());
 			 
-			 
-	 
+
+			
 			 
 			RequestDispatcher dispatcher = request.getRequestDispatcher("afterLogin.jsp");
 			 dispatcher.forward(request, response);
